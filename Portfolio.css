@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    text-decoration: none;
+}
+
+
+
+
+
+ body{
+   background: linear-gradient(#5d70703a, #485757e3);
+ }
+
+
+ header{
+  margin: 0.2rem;
+  padding-left: 0.8rem;
+   border-radius: 10px;
+   height: 6vh;
+    background: linear-gradient(to left,#5d707018,#485757ad);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+ }
+ header:hover{
+  background:#485757ad;
+ }
+ .logo{
+  text-align: center;
+ }
+ .logo a{
+   color: black;
+   font-size: max(18px, 2vw);
+ }
+ .logo a:hover{
+  color: white;
+  font-size:max(22px, 2.2vw);
+ }
+ .logo:hover{
+  background-color: rgb(32, 92, 92);
+  border-radius: 10px;
+ }
+
+ li{
+   list-style: none;
+   display: inline-block;
+ }
+ li:hover{
+background-color: rgb(32, 92, 92);
+border-radius: 10px;
+ }
+
+
+ li a{
+   text-decoration: none;
+   color: black;
+   font-size:max( 10px,1.5vw);
+   margin: 18px;
+}
+
+li a:hover{
+  color: white;
+  font-size: max(12px,1.8vw);
+
+
+}
+
+
+
+
+.conteudo{
+  display: flex;
+  padding:1rem ;
+  margin: 1rem;
+  align-items: center;
+  justify-content: space-around; 
+  box-sizing: border-box;
+  border: 2px solid whitesmoke;
+  height: 84.66vh;
+
+}
+.Texperiencia{
+  border: 2px solid black;
+  padding:1rem ;
+  margin: 1rem;
+}
+
+.Texperiencia p{
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+font-size: max(10px, 3vw);
+
+}.Texperiencia h2{
+  font-size:max(30px,5vw) ;
+  text-align: center;
+}
+.Texperiencia h3{
+  font-size:max(20px,4vw) ;
+}
+
+
+
+
+.Fexperiencia{
+  border-radius: 10px;
+  border: 2px solid black;
+  padding-right:1rem ;
+  padding-top: 0.8rem;
+  margin: 1.rem;
+  
+  background: #1c2222;
+  
+}
+.Fexperiencia p{
+  
+  font-weight: bold;
+  font-size: 20px;
+}
+.Fexperiencia img{
+  border-radius: 10px;
+  display: block;
+  width:max(7rem,32vw);
+ 
+}
+
+h5{
+  font-size: max(10px,2.5vw);
+}
+
+
+.projetos{
+  padding-left:3.5rem ;
+  margin: 1rem;
+  border: 2px solid whitesmoke;
+  height: 84.66vh;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr,1fr;
+  grid-template-areas: 
+  'um dois'
+  'tres quatro';
+  
+}
+.bytes{
+  grid-area: um;
+}
+.bytes img{
+  display: block;
+width: max(25px,22vw);
+}
+.engenharia{
+grid-area: dois;
+}
+.engenharia img{
+  display: block;
+  width: max(25px,22vw);
+}
+.empresa{
+  grid-area: tres;
+}
+.empresa img{
+  display: block;
+  width: max(25px,22vw);
+}
+.professor{
+  grid-area: quatro;
+}
+.professor img{
+  display: block;
+  width: max(25px,22vw);
+}
+h4{ 
+  font-size: max(8px,2vw);
+}
+
+footer{
+  background: linear-gradient(to left,#2f3838,#3944441a);
+  height: 4vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.one{
+  color:red;
+}
+.two{
+  color: black;
+  font-size: 20px;
+}
+.three{
+  color: yellow;
+}
+img{
+  width:20rem;
+}
+#mensagem{
+  height: 3rem;
+}
+
+  
+
+
+
+
+
